@@ -2,9 +2,10 @@ import { Routes } from "react-router-dom";
 import Counter from "./components/Counter";
 
 const App = () => {
-  return (<div>
+  return (
+    <div className="w-full h-[100vh] bg-[#344151] flex justify-center items-center">
       <Counter />
-  </div>)
+    </div>)
 };
 
 export default App;
